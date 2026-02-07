@@ -19,7 +19,23 @@ It is designed for data scientists, AI engineers, educators, and developers who 
 
 ## 📦 Installation
 
-Install NexusViewPro from PyPI:
+Install NexusViewPro via pip:
 
 ```bash
 pip install nexusviewpro
+```
+
+# How to install this package in your system
+
+``` bash
+python -m venv nexusviewpro_env
+```
+
+```bash
+source nexusviewpro_env/Scripts/activate
+```
+
+```bash
+pip install -r requirements_dev.txt
+```
+
